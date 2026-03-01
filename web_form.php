@@ -102,6 +102,8 @@
 <div> <!-- added my own question -->
     <label for="major">What is your major</label>
 
+<div>
+
     <input type="text" name="major" id="major" required>
 </div>
 <div>
