@@ -21,6 +21,8 @@
         <input type="password" name="pw" id="pw" required/>
 </div>
 
+<div>
+
         <fieldset>
             <legend>What age are you? </legend>
 
