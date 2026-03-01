@@ -83,7 +83,6 @@
     <label for="68+">68+ </label>
 </div>
 </fieldset>
-</div>
 
 
 <div>
