@@ -9,7 +9,7 @@
 <h1>Student life Survey</h1>
 
 <main>
-<form action="index.php" method="get" class="survey">
+<form action="confirmation.php" method="POST" class="survey">
    
     <div>
         <label for="email">Enter your email: </label>
@@ -31,10 +31,6 @@
     <label for="0-12">0-12 </label>
 </div>
 
-<div>
-    <input type="radio" name="age" id="13-17" value="13-17" required/>
-    <label for="13-17">13-17 </label>
-</div>
 
 <div>
     <input type="radio" name="age" id="13-17" value="13-17" required/>
