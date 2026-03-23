@@ -67,6 +67,51 @@
 
                     print("<p>No data.</p>");
 
+
+                        }
+
+                function age($db){
+                    print("<h2>Respondent Ages:</h2>");
+
+                    $select_age = $db->prepare('SELECT age FROM Student Servey');
+                    $select_age->execute();
+
+                    $age_select = $select_age->fetchAll();
+                    $age_array = array();
+                    foreach ($age_select as $array){
+                        array_push($age_array, $array["age"]);
+                    }
+
+
+                   
+                    }
+
+                    function major ($db) {
+                         print("<h2>Random majors</h2>");
+                         $selec_major= $db->prepare('SELECT age FROM Student Servey');
+                    $select_major->execute();
+                    $major_select = $select_major->fetchAll();
+                    $major_array = array();
+                    foreach ($major_select as $array){
+                        array_push($major_array, $array["major"]);
+                    }
+
+
+
+
+                    }
+                    
+                    function credits ($db){
+                        print("<h2>Random credits</h2>");
+
+                         $selec_credits= $db->prepare('SELECT credits FROM Student Servey');
+                    $select_credits->execute();
+                    $credits_select = $select_major->fetchAll();
+                    $credits_array = array();
+                    foreach ($credits_select as $array){
+                        array_push($credits_array, $array["credits"]);
+                    }
+
                 }
         }
 
