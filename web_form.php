@@ -113,6 +113,7 @@
  <button type="submit" name="survey-submit" id="survey-submit">Submit</button>
 </div>
             </form>
+    <p> <a href= "data_page.php">view survey data </a></p>
         </main>
 
     </body>
