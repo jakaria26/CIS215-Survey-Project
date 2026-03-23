@@ -1,4 +1,5 @@
 <?php
+include 'dbconfig.php';
 
 /*
 Debugging notes: fix miss validation and major 
