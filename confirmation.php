@@ -20,6 +20,7 @@ function main(){
 if (pwVerify()){
 if (valInputs()){
 print("<p>Your responses show here.</p>");
+ addData();
 print("<p><a href='web_form.php'>Return to Form.</a></p>");
  };
 };
