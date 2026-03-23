@@ -22,6 +22,7 @@ if (valInputs()){
 print("<p>Your responses show here.</p>");
  addData();
 print("<p><a href='web_form.php'>Return to Form.</a></p>");
+ print("<p><a href='data_page.php'> view survey data </a></p>");
  };
 };
 };
